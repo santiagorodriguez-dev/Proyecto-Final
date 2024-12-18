@@ -16,6 +16,7 @@
 -	Base de datos en postgres sql (Azure)
 -	https://www.ree.es/es/datos/apidatos (API)
 -   https://data.open-power-system-data.org/renewable_power_plants/2020-08-25
+-   https://data.london.gov.uk/dataset/photovoltaic--pv--solar-panel-energy-generation-data
 -	¿Datos de inversores de placas solares?
 -	EDA
 -	Análisis predictivo de comportamiento de inversores placas solares
