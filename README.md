@@ -7,13 +7,15 @@
 - Investigar una nueva tecnología
 - Presentaciones de 8 minutos (Sin código)
 
-# Energy
-Análisis de datos, algoritmo predictivo sobre instalaciones de placas solaras.
-
-Obtención de datos Apis, red eléctrica española, orientada al estudio del panorama actual para energías renovables, a priori centrada en energía solar.
-
+# CleanEnergy
+## lineas principales
+Analisis Macro, generacion, instalacciones de produccion de energia renovable.
+Analisis segmento energia solar.
+Algoritmo predictivo sobre instalaciones de energia solar.
+## Pasos
 -	Base de datos en postgres sql (Azure)
 -	https://www.ree.es/es/datos/apidatos (API)
+-   https://data.open-power-system-data.org/renewable_power_plants/2020-08-25
 -	¿Datos de inversores de placas solares?
 -	EDA
 -	Análisis predictivo de comportamiento de inversores placas solares
