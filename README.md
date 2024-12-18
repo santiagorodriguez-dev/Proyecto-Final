@@ -9,9 +9,9 @@
 
 # CleanEnergy
 ## lineas principales
-Analisis Macro, generacion, instalacciones de produccion de energia renovable.
-Analisis segmento energia solar.
-Algoritmo predictivo sobre instalaciones de energia solar.
+-   Analisis Macro, generacion, instalacciones de produccion de energia renovable.
+-   Analisis segmento energia solar.
+-   Algoritmo predictivo sobre instalaciones de energia solar.
 ## Pasos
 -	Base de datos en postgres sql (Azure)
 -	https://www.ree.es/es/datos/apidatos (API)
