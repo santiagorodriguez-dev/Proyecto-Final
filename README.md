@@ -17,6 +17,8 @@
 -	https://www.ree.es/es/datos/apidatos (API)
 -   https://data.open-power-system-data.org/renewable_power_plants/2020-08-25
 -   https://data.london.gov.uk/dataset/photovoltaic--pv--solar-panel-energy-generation-data
+-   https://github.com/Charlie5DH/Solar-Power-Datasets-and-Resources?tab=readme-ov-file
+-   https://data.london.gov.uk/dataset/photovoltaic--pv--solar-panel-energy-generation-data
 -	¿Datos de inversores de placas solares?
 -	EDA
 -	Análisis predictivo de comportamiento de inversores placas solares
