@@ -47,10 +47,10 @@ Se incluye la visualización de datos mediante gráficos interactivos y el desar
 
 ## Otros
 
-ENTSO-E Transparency Platform (https://transparency.entsoe.eu/)
-Open Power System Data (https://open-power-system-data.org/)
-Global Solar Atlas (World Bank) (https://globalsolaratlas.info/map)
-Our World in Data - Energy (https://ourworldindata.org/energy)
+-	ENTSO-E Transparency Platform (https://transparency.entsoe.eu/)
+-	Open Power System Data (https://open-power-system-data.org/)
+-	Global Solar Atlas (World Bank) (https://globalsolaratlas.info/map)
+-	Our World in Data - Energy (https://ourworldindata.org/energy)
 
 
 
