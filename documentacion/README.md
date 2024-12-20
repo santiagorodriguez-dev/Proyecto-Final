@@ -11,7 +11,8 @@
 ## Descripción  
 Este proyecto tiene como objetivo analizar la producción de energía solar en Europa, 
 compararla con la producción global de energía y utilizar tecnologías de análisis predictivo para proyectar tendencias futuras. 
-Se incluye la visualización de datos mediante gráficos interactivos y el desarrollo de una aplicación web con Flask.  
+Se incluye la visualización de datos mediante gráficos interactivos y el desarrollo de una aplicación web con Flask. 
+comnparativa resto de eneregias 
 
 ## Características  
 1. **Análisis de datos históricos de producción solar en Europa.**  
@@ -25,9 +26,12 @@ Se incluye la visualización de datos mediante gráficos interactivos y el desar
 - **Python**: Para procesamiento de datos y lógica del proyecto.  
 - **Pandas y NumPy**: Limpieza y análisis de datos.  
 - **Matplotlib y Plotly**: Creación de gráficos y visualizaciones.  
-- **scikit-learn**: Construcción de modelos predictivos.  
+- **scikit-learn**: Construcción de modelos predictivos.
+- **Pycaret** 
 - **Flask**: Desarrollo de la aplicación web.
 - **Sql**: Base de datos en Azure.
+- ** Mongo **
+- ** base de datos de grafos **
 
 
 ## Notas
@@ -51,6 +55,8 @@ Se incluye la visualización de datos mediante gráficos interactivos y el desar
 -	Open Power System Data (https://open-power-system-data.org/)
 -	Global Solar Atlas (World Bank) (https://globalsolaratlas.info/map)
 -	Our World in Data - Energy (https://ourworldindata.org/energy)
+-	INE
+
 
 
 
