@@ -1,9 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request # type: ignore
 import os
 
 app = Flask(__name__)
 
-tasks = []
+tasks = {
+        'id': 999,
+        'title': 'Titulo',
+        'completed': False  # Por defecto, la tarea no está completada
+    }
 
 @app.route('/tasks', methods=['POST'])
 def create_task():
