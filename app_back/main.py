@@ -11,7 +11,6 @@ tasks = {
     }
 
 API_TOKEN = os.getenv("API_TOKEN")
-print(API_TOKEN)
 
 def token_required(f):
     @wraps(f)
