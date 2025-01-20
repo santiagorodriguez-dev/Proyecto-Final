@@ -14,7 +14,7 @@ from openai import OpenAI # type: ignore
 import string
 import random
 
-def load_data_init_alumnos():
+def load_data_init_alumnos(num_registros: int = 10000):
 
     type_estudios = DynamicProvider(
      provider_name="estudios",
@@ -40,9 +40,10 @@ def load_data_init_alumnos():
                "ciudad": fake.address().split('\n')[1].split(',')[0],
                "edad": np.random.randint(18, 45),
                "telefono": fake.phone_number(),
-               "sexo": random.choices(['Hombre', 'Mujer'], weights=[0.5, 0.5], k=1)[0]
+               "sexo": random.choices(['Hombre', 'Mujer'], weights=[0.5, 0.5], k=1)[0],
+               "curso_01_fullstack": random.choices(['si', 'no'], weights=[0.5, 0.5], k=1)[0]
              }
-             for i in range(10000)
+             for i in range(num_registros)
          ]
     
     df = pd.DataFrame(data = data).drop_duplicates(subset=['email'], keep='first', inplace=False)
@@ -50,7 +51,7 @@ def load_data_init_alumnos():
     return df
 
 
-def load_data_init_leads():
+def load_data_init_leads(num_registros: int = 1000):
 
     type_estudios = DynamicProvider(
      provider_name="estudios",
@@ -76,7 +77,7 @@ def load_data_init_leads():
                "telefono": fake.phone_number(),
                "sexo": random.choices(['Hombre', 'Mujer'], weights=[0.5, 0.5], k=1)[0]
              }
-             for i in range(1000)
+             for i in range(num_registros)
          ]
     
     df = pd.DataFrame(data = data).drop_duplicates(subset=['email'], keep='first', inplace=False)
