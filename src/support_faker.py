@@ -150,17 +150,18 @@ def remove_duplicates(df_leads, df_alumnos):
       df_leads = df_leads.replace(r'\n',  ' ', regex=True)
       df_alumnos = df_alumnos.replace(r'\n',  ' ', regex=True)
 
+      df_leads.reset_index(drop=True, inplace=True)
+      df_alumnos.reset_index(drop=True, inplace=True)
+
     return (df_leads, df_alumnos)
 
 def save_df_to_csv(df_leads, df_alumnos):
 
-  fecha_hoy = datetime.today().strftime('%Y-%m-%d')
-
   print("Numero de df_leads: ", df_leads.shape[0])
   print("Numero de df_alumnos: ", df_alumnos.shape[0])
 
-  df_leads.to_csv(f"../data/leads_{fecha_hoy}.csv", index=True, header=True)
-  df_alumnos.to_csv(f"../data/alumnos_{fecha_hoy}.csv", index=True, header=True)
+  df_leads.to_csv(f"../data/leads.csv", index=True, header=True)
+  df_alumnos.to_csv(f"../data/alumnos.csv", index=True, header=True)
 
 
 
