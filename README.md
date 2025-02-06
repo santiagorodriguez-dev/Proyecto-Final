@@ -13,6 +13,10 @@
 4. **FrontEnd, web con modelos conversacionales y analisis de datos**
    
     [Agente asistente de ventas - Aplicacion web](https://github.com/santiagorodriguez-dev/pf_03_front_end)
+    
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia Apache 2.0. Para más detalles, consulta el archivo [LICENSE](LICENSE).
 
 ## Autores
 * **Santiago Rodriguez** - [santiagorodriguez-dev](https://github.com/santiagorodriguez-dev)
