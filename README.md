@@ -2,7 +2,7 @@
 
 ## Repositorios:
 
-1. **Extraccion e inserccion de datos en BD.** 
+1. **Extraccion e inserccion de datos en BD** 
     [1 - Agente asistente de ventas - Extraccion e inserccion de datos en BD](https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento)
 
 2. **Exploración de Datos y Selección del Modelo**
