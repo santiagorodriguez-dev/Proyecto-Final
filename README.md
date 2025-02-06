@@ -13,4 +13,7 @@
 4. **FrontEnd, web con modelos conversacionales y analisis de datos**
    
     [Agente asistente de ventas - Aplicacion web](https://github.com/santiagorodriguez-dev/pf_03_front_end)
+
+## Autores
+* **Santiago Rodriguez** - [santiagorodriguez-dev](https://github.com/santiagorodriguez-dev)
 	
