@@ -13,6 +13,15 @@
 4. **FrontEnd, web con modelos conversacionales y analisis de datos**
    
     [Agente asistente de ventas - Aplicacion web](https://github.com/santiagorodriguez-dev/pf_03_front_end)
+
+5. **Acceso web aplicacion**
+    [Acceso web aplicacion](https://asistente-dev.streamlit.app/)
+
+6. **Presentación**
+    [Presentación](https://demosanti.my.canva.site/presentaci-n-final)
+
+6. **Documentación**
+    [Documentacion](https://github.com/santiagorodriguez-dev/pf_00_doc_main_asistente/tree/main/doc)
     
 ## Licencia
 
